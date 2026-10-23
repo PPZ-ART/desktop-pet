@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+frames/
+build/
+dist/
+*.spec
+vosk-model*/
+settings.json
+pet_state.json
+apps.json
+frame0_*.png
+*_test*.png
+*.zip
