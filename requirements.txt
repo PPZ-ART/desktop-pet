@@ -1,8 +1,12 @@
 pillow
 numpy
 scipy
-vosk
+funasr
+torch
+torchaudio
+modelscope
 sounddevice
+soundfile
 edge-tts
 pygame
 pywin32

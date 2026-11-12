@@ -1,14 +1,31 @@
 __pycache__/
 *.pyc
 .env
-frames/
+
+# 构建产物（用 build.ps1 重新生成）
 build/
 dist/
-*.spec
-vosk-model*/
+*.zip
+
+# 本地配置与密钥（不进仓库）
 settings.json
 pet_state.json
 apps.json
-frame0_*.png
-*_test*.png
-*.zip
+agent_keys.json
+agent_extra.json
+pet.log
+agent_task.log
+
+# 临时/调试产物
+_ui_test.png
+_*test*.png
+_alpha_*.png
+_smoke.log
+chat_test.txt
+ui_chat_test.txt
+build_log.txt
+asr_test.txt
+
+# 原始素材（大图，运行不依赖）
+frame0_原图.png
+frame0_抠图.png
